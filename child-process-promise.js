@@ -18,10 +18,10 @@ var childProcess = require('child_process'),
       var process = childProcess.spawn(command, options);
       var errText = '';
       process.stdout.on('data', function (buffer) {
-        //console.log(buffer.toString());
+        console.log(buffer.toString());
       });
       process.stderr.on('data', function (buffer) {
-        //console.error(buffer.toString());
+        console.error(buffer.toString());
         errText += buffer.toString();
       });
       process.on('close', function (code) {
