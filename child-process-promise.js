@@ -22,7 +22,7 @@ var childProcess = require('child_process'),
       });
       process.stderr.on('data', function (buffer) {
         //console.error(buffer.toString());
-        errText = buffer.toString();
+        errText += buffer.toString();
       });
       process.on('close', function (code) {
         resolve(errText);

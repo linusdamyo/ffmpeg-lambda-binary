@@ -5,7 +5,7 @@
   "main": "ffmpeg.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrdziuban/ffmpeg-lambda-binary.git"
+    "url": "git+https://github.com/linusdamyo/ffmpeg-lambda-binary.git"
   },
   "author": "Matt Dziuban <mrdziuban@gmail.com>",
   "license": "UNLICENSED"
